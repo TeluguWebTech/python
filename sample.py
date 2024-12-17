@@ -1,11 +1,13 @@
 
-# sample = "THis is sample Output"
+import emp_details
 
-# print(sample)
+import time
 
+emp_details.emp_name("anil", "kumar")
 
-# # user!name = "suresh"
+emp_details.emp_age(35)
 
-# # print(username9)
+# in-built
+help("modules")
 
-# # this is comment
+print(time.ctime())
