@@ -1,3 +1,5 @@
+from emp_data import employees
+
 # Addition
 a = 10
 b = 5
@@ -55,3 +57,7 @@ print("Greater than:", x > y)    # False
 print("Less than:", x < y)       # True
 print("Greater or equal:", x >= y)  # False
 print("Less or equal:", x <= y)  # True
+
+
+for item in employees:
+    print(item)

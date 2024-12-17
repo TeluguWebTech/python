@@ -3,11 +3,17 @@ import emp_details
 
 import time
 
-emp_details.emp_name("anil", "kumar")
+from emp_details import emp_age
+from modules import emp_city
 
-emp_details.emp_age(35)
+# emp_details.emp_name("anil", "kumar")
 
-# in-built
-help("modules")
+# emp_details.emp_age(35)
 
-print(time.ctime())
+# # in-built
+# help("modules")
+
+# print(time.ctime())
+
+emp_age(30)
+print(emp_city)
